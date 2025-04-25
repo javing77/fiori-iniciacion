@@ -45,6 +45,7 @@
                                                 showMeasure : false
                                             }}"
                                     numberUnit="{selectionScreen>/Currency}"
+                                    numberState="{= ${ExtendedPrice} > 100 ? 'Success' : 'Warning'}"
                                     >
                     </ObjectListItem>
                   </items>
